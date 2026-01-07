@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>  <!-- 3. <feildset> it is grouping tag-->
+        <legend> baSIC HTML FORM </legend>            <!-- 4. <legend> it is a title for the fieldset  -->
+        <label for="email">Enter your email</label>
+        <input type="text" id="email" placeholder="email" >
+        
+        <br><br>
+        <label for="email">Enter your pass</label> 
+        <input type="text" id="email" placeholder="password" > 
+
+        <br><br>
+        <input type="submit" value="Submit">
+
+        <!-- and also we can use button tag -->
+
+        <button>Click Me</button>
+
+        <!-- using different types of tags -->
+         <!-- 1. <select> tag-->
+
+        <br><br>
+        <label for="Dish" > Select your dish: </label> 
+
+        <select >
+            <option value="maggie">Maggie</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="lays">lays</option>
+        </select>
+
+        <br><br>
+
+        <!-- 2. <textarea> tag -->
+            
+            <label> Enter your text: </label>
+            <textarea rows="4" cols="30" placeholder="Enter text here..."></textarea>
+
+
+        </fieldset>
+
+
+       <br></br>
+    </form>
+
+    <!-- USing other input tags-->
+    
+    <form>
+
+        <fieldset>
+            <legend> Different input tags</legend>
+
+        <label for="textfield">Enter your text:</label>         <!-- 1. <textfeild> -->
+        <input type="text" id="textfield" placeholder="Enter text here...">
+
+        <br><br>
+
+        <label for="radiobutton">Choose an option:</label>       <!-- 2. <radio button> -->
+        <label for="option1">male</label>
+        <input type="radio" id="option1" name="radiobutton" value="option1">
+        <label for="option1">Female</label>
+        <input type="radio" id="option1" name="radiobutton" value="option1">
+
+        <br><br>
+
+        <label for="checkboxbutton">Check this box:</label>     <!-- 3. <checkbox> -->
+        <label for="checkbox"></label>   
+        <input type="checkbox" id="checkbox" name="checkbox">
+
+        <br><br>
+
+        <label for="file">Upload a file:</label>           <!-- 4. <file upload> -->
+        <input type="file" id="file">
+
+        <br><br>
+
+        <label for="images"></label>        <!-- 5. <image upload> -->
+        <input type="image" id="images" src="61464.png" alt="Submit" width="25" height="25">
+
+        <br><br>
+
+        <label for="password">Enter your password:</label>     <!-- 6. <password> -->
+        <input type="password" id="password" placeholder="Enter your password">
+
+        <br><br>
+
+        <label for="date">Select a date:</label>        <!-- 7. <date picker> -->
+        <input type="date" id="date">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
